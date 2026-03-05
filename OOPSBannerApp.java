@@ -1,14 +1,15 @@
-//OOPSBannerApp UC2 - Banner Display Application
-public class OOPSBannerApp{
-	public static void main(String[] args){
-        System.out.println("   ***   "+" "+"   ***   "+" "+"******   "+" "+"  *****  ");
-        System.out.println(" **   ** "+" "+" **   ** "+" "+"**    ** "+" "+" **   ** ");
-		System.out.println("**     **"+" "+"**     **"+" "+"**     **"+" "+"**       ");
-        System.out.println("**     **"+" "+"**     **"+" "+"**    ** "+" "+" **      ");
-        System.out.println("**     **"+" "+"**     **"+" "+"******   "+" "+"  *****  ");
-        System.out.println("**     **"+" "+"**     **"+" "+"**       "+" "+"      ** ");
-		System.out.println("**     **"+" "+"**     **"+" "+"**       "+" "+"       **");
-        System.out.println(" **   ** "+" "+" **   ** "+" "+"**       "+" "+" **   ** ");
-        System.out.println("   ***   "+" "+"   ***   "+" "+"**       "+" "+"  *****  ");
-    }
+//OOPSBannerApp UC3 - Banner Display using String Join
+public class OOPSBannerApp{ 
+       public static void main(String[] arg){
+            System.out.println(String.join(" ", "   ***   ", "   ***   ", "******   ", "  *****  "));
+			System.out.println(String.join(" ", " **   ** ", " **   ** ", "**    ** ", " **   ** "));
+			System.out.println(String.join(" ", "**     **", "**     **", "**     **", "**       "));
+			System.out.println(String.join(" ", "**     **", "**     **", "**    ** ", " **      "));
+			System.out.println(String.join(" ", "**     **", "**     **", "******   ", "  *****  "));
+			System.out.println(String.join(" ", "**     **", "**     **", "**       ", "      ** "));
+			System.out.println(String.join(" ", "**     **", "**     **", "**       ", "       **"));
+			System.out.println(String.join(" ", " **   ** ", " **   ** ", "**       ", " **   ** "));
+			System.out.println(String.join(" ", "   ***   ", "   ***   ", "**       ", "  *****  "));
+
+       }
 }
